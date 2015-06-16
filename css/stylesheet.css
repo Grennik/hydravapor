@@ -77,12 +77,25 @@ background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
 }
 
 .carousel-inner{
-	
+text-align: center;
+float:none;
+
 border: black 1px solid;
 top:-20px;
+background: -moz-linear-gradient(left,  rgba(0,0,0,0.62) 0%, rgba(111,111,111,0) 31%, rgba(255,255,255,0.36) 71%, rgba(0,0,0,0.62) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.62)), color-stop(31%,rgba(111,111,111,0)), color-stop(71%,rgba(255,255,255,0.36)), color-stop(100%,rgba(0,0,0,0.62))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0.62) 0%,rgba(111,111,111,0) 31%,rgba(255,255,255,0.36) 71%,rgba(0,0,0,0.62) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(0,0,0,0.62) 0%,rgba(111,111,111,0) 31%,rgba(255,255,255,0.36) 71%,rgba(0,0,0,0.62) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(0,0,0,0.62) 0%,rgba(111,111,111,0) 31%,rgba(255,255,255,0.36) 71%,rgba(0,0,0,0.62) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(0,0,0,0.62) 0%,rgba(111,111,111,0) 31%,rgba(255,255,255,0.36) 71%,rgba(0,0,0,0.62) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e000000', endColorstr='#9e000000',GradientType=1 ); /* IE6-9 */
 
 }
-
+.carousel-inner  .item{
+right:-50px;
+	
+	
+}
 .carousel-caption{
 
 	font-family: "Modern 20", sans-serif;
