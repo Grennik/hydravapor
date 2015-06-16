@@ -1,0 +1,131 @@
+@font-face{
+	font-family: 'myFont';
+	src: url('../fonts/desgaste.ttf');
+	src: url('../fonts/desgaste.ttf') format('truetype');
+	src: url('../fonts/desgaste.eot') format('embedded-opentype');
+
+	
+}
+
+.logo{
+	padding-top: 20px;
+	padding-bottom: 4px;
+	display: block;
+	margin: 0 auto;
+	float: none;
+	
+}
+
+.headlogo{
+	
+	background: #45484d; /* Old browsers */
+background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #45484d 0%,#000000 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	
+}
+.navbar-default{
+	
+		background: #45484d; /* Old browsers */
+background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #45484d 0%,#000000 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	
+	text-align: center;
+	border-color:#45484d;
+}
+.navbar-inverse .navbar-nav > li > a {
+	
+	color:white;
+	font-family: monospace, Times, serif;
+	font-size: 1.75em;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+	
+}
+.navbar-inverse .navbar-nav > .active > a{
+	
+	color:#3b49ac;
+	
+	
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+	
+	color: white;
+	
+	
+	
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	
+	color:#3b49ac;
+	
+
+}
+
+.navbar-toggle{
+	
+	border: none;
+}
+
+@media(min-width: 768px){
+	.navbar-nav {
+		width: 100%;
+		text-align: center;
+	}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+
+display: inline-block;
+width: auto;
+height: auto;
+position: relative;
+max-width: 100%;
+max-height: 100%;
+
+
+}
+.carousel-inner{
+display: block;
+top:-20px;
+height:auto;
+width:1000px;
+float: center;
+
+background-color: black;
+border: 2px solid black;
+margin-left: auto;
+margin-right:auto;
+
+
+
+}
+.carousel-indicators{
+
+top:460px;
+position: relative;
+
+
+}
+.carousel{
+
+position: static;
+display: block;
+margin-top:auto;
+
+}
+.carousel-caption{
+
+	font-family: "Modern 20", sans-serif;
+}	
+	
+}
