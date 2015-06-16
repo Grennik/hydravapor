@@ -36,6 +36,7 @@ background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
 	font-size: 1.75em;
 	padding-left: 30px;
 	padding-right: 30px;
+	
 }
 
 .navbar-nav{
@@ -53,13 +54,13 @@ background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
 .navbar-inverse .navbar-nav > .active > a{
 	
 	color:#3b49ac;
-	
+	background:none;
 	
 }
 .navbar-inverse .navbar-nav > .active > a:hover {
 	
 	color: white;
-	
+	background:none;
 	
 	
 }
