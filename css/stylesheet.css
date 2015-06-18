@@ -15,6 +15,15 @@
 	float: none;
 	
 }
+.social{
+	
+	padding-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	float: right;
+	display: block;
+	padding-right:20px;
+}
 
 .headlogo{
 	
@@ -33,28 +42,22 @@ background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
 
 	color:white;
 	font-family: monospace, Times, serif;
-	font-size: 1.75em;
-	padding-left: 30px;
-	padding-right: 30px;
+	font-size: 1.5em;
+	padding-left: 0px;
+	padding-right:40px;
 	
 }
 
 .navbar-nav{
 	width:100%;
-	text-align:center;
-}
-
-.navbar-nav	> li {
 	
-	float: none;
-	display:inline-block;
-		
 }
 
 .navbar-inverse .navbar-nav > .active > a{
 	
 	color:#3b49ac;
 	background:none;
+	font-size: 1.6em;
 	
 }
 .navbar-inverse .navbar-nav > .active > a:hover {
@@ -82,23 +85,59 @@ float:none;
 
 border: black 1px solid;
 top:-20px;
-background: -moz-linear-gradient(left,  rgba(0,0,0,0.62) 0%, rgba(111,111,111,0) 31%, rgba(255,255,255,0.36) 71%, rgba(0,0,0,0.62) 100%); /* FF3.6+ */
+
+
+}
+
+.carousel-inner > .item{
+	
+	
+	float:center;
+	
+}
+
+.carousel-caption{
+
+	font-family: "Modern 20", sans-serif;
+}	
+	
+.bodyarea{
+	
+	background-color: #222222;
+	color:white;
+	margin-top:-20px;
+	text-align: center;
+}
+.bodytexts{
+	
+	 background-color: #222222;
+	 color:white;
+	 margin-top: -10px;
+	 padding-left: 70px;
+	 padding-right: 70px;
+	 padding-top:20px;
+	 
+	
+	
+}
+
+.bottomtext{
+	
+	background-color: #222222;
+	color:white;	
+	margin-top: -10px;
+	padding-top:50px;
+	text-align: center;
+	font-size: .8em;
+}
+body{
+	
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0.62) 0%, rgba(111,111,111,0) 31%, rgba(255,255,255,0.36) 71%, rgba(0,0,0,0.62) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.62)), color-stop(31%,rgba(111,111,111,0)), color-stop(71%,rgba(255,255,255,0.36)), color-stop(100%,rgba(0,0,0,0.62))); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(left,  rgba(0,0,0,0.62) 0%,rgba(111,111,111,0) 31%,rgba(255,255,255,0.36) 71%,rgba(0,0,0,0.62) 100%); /* Chrome10+,Safari5.1+ */
 background: -o-linear-gradient(left,  rgba(0,0,0,0.62) 0%,rgba(111,111,111,0) 31%,rgba(255,255,255,0.36) 71%,rgba(0,0,0,0.62) 100%); /* Opera 11.10+ */
 background: -ms-linear-gradient(left,  rgba(0,0,0,0.62) 0%,rgba(111,111,111,0) 31%,rgba(255,255,255,0.36) 71%,rgba(0,0,0,0.62) 100%); /* IE10+ */
 background: linear-gradient(to right,  rgba(0,0,0,0.62) 0%,rgba(111,111,111,0) 31%,rgba(255,255,255,0.36) 71%,rgba(0,0,0,0.62) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e000000', endColorstr='#9e000000',GradientType=1 ); /* IE6-9 */
-
-}
-.carousel-inner  .item{
-right:-50px;
-	
-	
-}
-.carousel-caption{
-
-	font-family: "Modern 20", sans-serif;
-}	
 	
 }
