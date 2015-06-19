@@ -57,7 +57,7 @@ background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
 	
 	color:#3b49ac;
 	background:none;
-	font-size: 1.6em;
+	font-size: 1.5em;
 	
 }
 .navbar-inverse .navbar-nav > .active > a:hover {
@@ -116,9 +116,19 @@ top:-20px;
 	 padding-left: 70px;
 	 padding-right: 70px;
 	 padding-top:20px;
-	
 	 box-shadow: 0 0 20px #222222;
 	
+}
+.bodybox{
+	
+	 background-color: #222222;
+	 color:white;
+	 margin-top: -10px;
+	 padding-left: 70px;
+	 padding-right: 70px;
+	 padding-top:20px;
+	 text-align: center;
+	 box-shadow: 0 0 20px #222222;
 }
 
 .bottomtext{
