@@ -8,8 +8,8 @@
 }
 
 .logo{
-	padding-top: 20px;
-	padding-bottom: 4px;
+	padding-top: 10px;
+	padding-bottom: 1px;
 	display: block;
 	margin: 0 auto;
 	float: none;
@@ -27,14 +27,8 @@
 
 .headlogo{
 	
-	background: #45484d; /* Old browsers */
-background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #45484d 0%,#000000 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	background: black;
+
 	
 
 }
@@ -73,7 +67,15 @@ background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
 	
 
 }
-
+.bottomtext .navbar-nav > li > a:hover {
+	
+	color:white;
+	background:none;
+}
+.bottomtext .navbar-nav > li > a{
+	
+	color:#3b49ac;
+}
 .navbar-toggle{
 	
 	border: none;
@@ -131,6 +133,10 @@ top:-20px;
 	 box-shadow: 0 0 20px #222222;
 }
 
+.bodytexts > p{
+	
+	text-indent: 50px;
+}
 .bottomtext{
 	
 	background-color: #222222;
