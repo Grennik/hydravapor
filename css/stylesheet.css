@@ -157,3 +157,68 @@ background: linear-gradient(to right,  rgba(0,0,0,0.62) 0%,rgba(111,111,111,0) 3
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e000000', endColorstr='#9e000000',GradientType=1 ); /* IE6-9 */
 	
 }
+
+.bodyimages{
+	
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	border-radius: 250px;
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
+	overflow:hidden;
+	border: 3px #3b49ac;
+	transition: all .4s;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+}
+.bodyimages:hover{
+	
+	box-shadow: 0 0 45px #3b49ac;
+	-webkit-box-shadow: 0 0 45px #3b49ac;
+	-moz-box-shadow: 0 0 45px #3b49ac;
+	
+	
+}
+
+.bodyimages  > figcaption{
+	
+	position: absolute;
+	bottom:100px;
+	right:10px;
+	left:10px;
+	font-size: 5em;
+	font-family:"impact"
+	
+}
+
+.bodyimages > a > button{
+	
+	position: absolute;
+	bottom: 80px;
+	right:100px;
+	left:135px;
+	background: #3b49ac;
+	border: 1px white;
+	color:white;
+	transition: all .4s;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	font-family: sans-serif;
+	
+}
+.bodyimages > a > button:hover{
+	
+	background: #4d5fdc;
+	color:white;
+	
+}
+
+.bodyimagecontainer{
+	
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+}
+	
+
